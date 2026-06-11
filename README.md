@@ -38,15 +38,15 @@ By the end of this guide, you will be able to:
 
 3. Install [MuseScore](https://musescore.org/en/download) for sheet music rendering.
 
-4. In a Python session or notebook cell, configure music21 to find MuseScore:
+4. In your terminal, open the notebook:
+   ```bash
+   jupyter notebook Learn_Music21.ipynb
+   ```
+
+5. In a notebook cell, configure music21 to find MuseScore:
    ```python
    from music21 import environment
    environment.set('musicxmlPath', '/path/to/mscore')  # update to your install path
-   ```
-
-5. In your terminal, open the notebook:
-   ```bash
-   jupyter notebook Learn_Music21.ipynb
    ```
 
 ## Notebook contents
