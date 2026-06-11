@@ -43,7 +43,8 @@ By the end of this guide, you will be able to:
    jupyter notebook Learn_Music21.ipynb
    ```
 
-5. In a notebook cell, configure music21 to find MuseScore:
+5. After running the import cell (`from music21 import *`), add a new cell with the
+   following and run it before any cell that calls `show()`:
    ```python
    from music21 import environment
    environment.set('musicxmlPath', '/path/to/mscore')  # update to your install path
