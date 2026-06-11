@@ -53,13 +53,13 @@ By the end of this guide, you will be able to:
 
 | Section | What you'll learn |
 | :-- | :-- |
-| Install the music21 package | Install via pip |
-| Import the package | Wildcard import pattern |
-| Add notes to a staff | `Stream`, `Note`, and `show()` |
-| Add a chord to a staff | `Chord` objects |
-| Set key and time signatures | `Key`, `KeySignature`, `TimeSignature` |
-| Play back your music | `show('midi')` in Jupyter |
-| Analyze your music | `romanNumeralFromChord()` |
+| Install the music21 package | Install music21 and its dependencies with pip |
+| Import the package | Use a wildcard import to access all music21 classes and functions |
+| Add notes to a staff | Create a `Stream` container, add `Note` objects with pitch and duration, and render sheet music with `show()` |
+| Add a chord to a staff | Build a `Chord` object with multiple simultaneous pitches and append it to an existing stream |
+| Set key and time signatures | Apply `Key` and `TimeSignature` objects to define tonality and meter; understand how `Key` differs from `KeySignature` |
+| Play back your music | Use `show('midi')` to generate an interactive MIDI playback widget in Jupyter |
+| Analyze your music | Use `romanNumeralFromChord()` to identify the harmonic function of chords in a key using Roman numeral analysis |
 
 ## Related
 
